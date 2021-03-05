@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eric-test
+  description: my test service
+  annotations: 
+    github.com/project-slug: ecray/my-svc
+    backstage.io/source-ref: "https://github.com/ecray/my-svc"
+    backstage.io/techdocs-ref: url:https://github.com/ecray/my-svc
+    backstage.io/github-actions-id: https://github.com/ecray/my-svc
+spec:
+  type: service
+  lifecycle: experimental
+  owner: ecray
